@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3a3633;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: all ease-in-out 0.2s;
+}
+
+img {
+    display: block;
+}
+
+a:hover {
+    opacity: 0.5;
+}
