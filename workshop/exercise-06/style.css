@@ -8,6 +8,32 @@ body {
 
 .nav-dropdown {
   color: #fff;
-  text-decoration: none;
   display: inline-block;
+  position: relative;
+  padding: 20px;
+}
+
+.menu {
+  display: none;
+}
+
+.nav-dropdown:hover 
+.menu {
+  display:block;
+  background-color: blue;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+}
+
+li:hover {
+  background-color: darkblue;
 }
