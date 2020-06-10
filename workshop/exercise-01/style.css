@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    margin: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav, .footer {
+    background-color: #313633;
+    color: white;
+}
