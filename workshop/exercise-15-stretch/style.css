@@ -1,0 +1,58 @@
+body {
+    font-size: 0;
+    margin: 0;
+}
+.btn {
+    border-radius: 4px;
+    height: 25px;
+    color: white;
+    background-color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    width: calc((100% - 24px) / 8);
+    padding: 0;
+    margin-left: 3px;
+    margin-top: 5px;
+}
+
+.primary {
+    border: solid 2px #00f;
+    color: #00f;
+
+}
+
+.secondary {
+    border: solid 2px lightgray;
+    color: lightgray;
+}
+
+.success {
+    border: solid 2px #0f0;
+    color: #0f0;
+}
+
+.danger {
+    border: solid 2px pink;
+    color: pink;
+}
+
+.warning {
+    border: solid 2px lightgoldenrodyellow;
+    color: lightgoldenrodyellow;
+}
+
+.info {
+    border: solid 2px paleturquoise;
+    color: paleturquoise;
+}
+
+.light {
+    border: solid 2px #fcfcfc;
+    color: #fcfcfc;
+}
+
+.dark {
+    border: solid 2px #3a3633;
+    color: #3a3633;
+}
