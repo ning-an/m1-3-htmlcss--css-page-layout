@@ -1,0 +1,38 @@
+div {
+    margin: 20px;
+}
+
+.btn {
+    border: none;
+    color: white;
+    border-radius: 4px;
+    min-height: 30px;
+    padding: 10px;
+}
+
+.blue {
+    background-color: rgb(122, 122, 238);
+}
+
+.grey {
+    background-color: grey;
+}
+
+.large {
+    width: 25%;
+    font-size: 2em;
+}
+
+.small {
+    width: 15%;
+    font-size: 1em;
+}
+
+.block {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+:disabled {
+    opacity: 0.5;
+}
