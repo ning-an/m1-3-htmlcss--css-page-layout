@@ -1,0 +1,25 @@
+body, p {
+    margin: 0;
+}
+
+.bar {
+    background-color: #3a3633;
+    color: white;
+    height: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.main {
+    height: calc( 100vh - 40px);
+    width: 100%;
+}
+
+p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
