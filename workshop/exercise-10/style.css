@@ -17,10 +17,12 @@ body {
 
 @keyframes move {
   0% {
-    transform: translateX(150px);
+    transform: translateX(100%);
+    opacity: 0;
   }
   100% {
     transform: translateX(0);
+    opacity: 1;
   }
 }
 
@@ -38,5 +40,20 @@ body {
 
 .cool:hover {
   cursor: pointer;
-  transform: scale(1.5) rotate(360deg);
+  animation: bounce 1s ease-in-out;
+}
+
+@keyframes bounce {
+  from {
+    transform: scale(1);
+  }
+  70% {
+    transform: scale(1.2);
+  }
+  90% {
+    transform: scale(0.8);
+  }
+  to {
+    transform: scale(1);
+  }
 }
