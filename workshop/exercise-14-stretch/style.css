@@ -1,0 +1,57 @@
+body {
+    font-size: 0;
+    margin: 0;
+}
+.btn {
+    border: none;
+    border-radius: 4px;
+    /* box-shadow: 0 0 1px grey; */
+    height: 25px;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    width: calc((100% - 27px) / 9);
+    padding: 0;
+    margin-left: 3px;
+    margin-top: 5px;
+}
+
+.primary {
+    background-color: #00f;
+}
+
+.secondary {
+    background-color: lightgray;
+}
+
+.success {
+    background-color: #0f0;
+}
+
+.danger {
+    background-color: pink;
+    color: #3a3633;
+}
+
+.warning {
+    background-color: lightgoldenrodyellow;
+}
+
+.info {
+    background-color: paleturquoise;
+}
+
+.light {
+    background-color: #fcfcfc;
+    color: #3a3633;
+}
+
+.dark {
+    background-color: #3a3633;
+}
+
+.link {
+    background: none;
+    color: blue;
+}
