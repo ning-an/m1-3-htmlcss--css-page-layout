@@ -1,0 +1,23 @@
+.card {
+    border: grey solid 2px;
+    border-radius: 4px;
+}
+
+.header {
+    border-bottom: 2px grey solid;
+    padding: 10px;
+}
+
+.body {
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: rgb(102, 102, 252);
+    color: white;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 0 0 1px 1px #fafafa;
+}
